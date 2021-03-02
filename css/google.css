@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header img{
+    margin-bottom: 10%;
+}
+.search{
+   list-style: none;
+    border: 1px solid blue;
+    height: auto;
+    margin-bottom: 0;
+    border-radius: 14px;
+}
+i{
+    padding: 10px;
+}
+.hello{
+ border: none;
+ width: 80%;
+}
+.hello:focus{
+    outline: none;
+}
+
+.header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    list-style: none;
+}
+.fa-times{
+    position: absolute;
+    right: 0;
+}
